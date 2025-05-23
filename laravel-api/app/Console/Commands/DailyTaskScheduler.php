@@ -18,7 +18,7 @@ class DailyTaskScheduler extends Command
 
     public function handle()
     {
-        
+
         $this->sendSubscriptionReminders();
         $this->archiveInactiveAccounts();
         $this->info('Daily tasks completed successfully.');
